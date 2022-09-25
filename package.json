@@ -1,0 +1,28 @@
+{
+  "name": "animated-list",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "dist/hybrid-select.es.js",
+  "exports": {
+    ".": "./dist/hybrid-select.es.js"
+  },
+  "types": "types/hybrid-select.d.ts",
+  "files": [
+    "dist",
+    "types"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build"
+  },
+  "dependencies": {
+    "@lit-labs/motion": "^1.0.3",
+    "lit": "^2.3.1",
+    "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.4",
+    "vite": "^3.1.0"
+  }
+}
